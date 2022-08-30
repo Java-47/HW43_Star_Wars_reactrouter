@@ -14,7 +14,7 @@ const Friend = ({ friend, number }) => {
     }
     return (
      
-           <Link to={`/home/${friend}`} replace className={friendStyle} load='false'>
+           <Link to={`/home/${friend}`} replace className={friendStyle}>
             <img className='col-12' src={characters[friend].img} alt={characters[friend].name}/>
            </Link>
 
